@@ -52,5 +52,14 @@ function main(){
     return color;
   }
 
+  /* Students search feature*/
+
+  var searchInput = document.querySelector('.input-student input');
+  searchInput.addEventListener('keyup', handleKeyDown);
+
+  function handleKeyDown() {
+    console.log(searchInput.value);
+  }
+
 }
 window.addEventListener('load', main);

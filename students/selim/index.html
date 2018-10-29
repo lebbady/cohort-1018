@@ -10,13 +10,22 @@
 
 <body>
   <section>
+
+      <section class="search">
+        <label for="">Students:</label>
+        <div class="input-student">
+          <input type="text">
+          <div class="search-results"></div>
+        </div>
+      </section>
+
     <h1>Hello, I'm Selim</h1>
     <h2>Official profile</h2>
     <img src="" alt="">
     <p>Recently graduated in <strong>Chemical Engineering</strong>.</p>
   </section>
   
-  <section>
+  <section class="personal-interests">
     <h3>Personal Interests</h3>
     <ul>
       <li><em>Sports</em></li>
@@ -28,7 +37,9 @@
     </ul>
   </section>
 
-  <section>
+  <button id='first'>Hide section</button>
+
+  <section class="experiments">
     <h2>Experiments</h2>
     <article class="card experiment">
       <header class="card-header">
@@ -43,5 +54,11 @@
       </footer>
     </article>
   </section>
+
+  <button id='second'>Hide section</button>
+
+  <script src="selim.js"></script>
+  <script src="../../students.js"></script>
+
 </body>
 </html>
